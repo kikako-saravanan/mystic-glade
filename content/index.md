@@ -1,5 +1,5 @@
 ---
-title: Welcome to My Digital Garden!
+title: Mystic Glade 🌱
 ---
 
 This is a blank Quartz installation.

@@ -25,38 +25,27 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#928374",
-          tertiary: "#a89984",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#ede7f6",        // Soft lavender background
+          lightgray: "#d1c4e9",    // Light purple for subtle elements
+          gray: "#9575cd",         // Vibrant violet for secondary text
+          darkgray: "#5e35b1",     // Rich indigo for strong contrast
+          dark: "#311b92",         // Deep purple for headers and important elements
+          secondary: "#7c4dff",    // Electric purple for buttons and links
+          tertiary: "#6200ea",     // Vivid deep violet for subheadings
+          highlight: "rgba(98, 0, 234, 0.2)",  // Transparent purple for background highlights
+          textHighlight: "#651fff88", // Neon violet text highlight
         },
-        // darkMode: {
-        //   light: "#2b2b2b",
-        //   lightgray: "#393639",
-        //   gray: "#646464",
-        //   darkgray: "#d4d4d4",
-        //   dark: "#F2E5BC",
-        //   secondary: "#928374",
-        //   tertiary: "#a89984",
-        //   highlight: "rgba(143, 159, 169, 0.15)",
-        //   textHighlight: "#7b6e1b",
-        // },
         darkMode: {
-          light: "#373534",        // Darker background for better contrast  
-          lightgray: "#494745",    // Subtle contrast for UI elements  
-          gray: "#8d8d8d",         // Medium gray for secondary elements  
-          darkgray: "#d4d4d4",     // Well-balanced gray for subtext and secondary text  
-          dark: "#fcf2d8",         // Warm beige for main text (readable but not harsh)  
-          secondary: "#feb976",    // Muted golden-yellow for buttons and accents  
-          tertiary: "#bb8a3e",     // Darker gold for subheadings (less bright)  
-          highlight: "rgba(131, 165, 152, 0.3)",  // Soft teal-green for background highlights  
-          textHighlight: "#7b6e1b", // Muted teal-blue for text highlights (clear contrast with white text)  
-        }
+          light: "#1e1b2d",        // Dark, muted blue-violet background
+          lightgray: "#2a2540",    // Soft grayish-indigo for contrast
+          gray: "#524e74",         // Muted violet-gray for secondary elements
+          darkgray: "#a3a0c2",     // Soft lavender-gray for text
+          dark: "#c4c1e0",         // Gentle pastel violet for main text
+          secondary: "#817caa",    // Muted soft purple for buttons and links
+          tertiary: "#5b5789",     // Deep indigo-violet for headings
+          highlight: "rgba(75, 70, 109, 0.3)",  // Soft twilight violet for background highlights
+          textHighlight: "#9a97c6", // Gentle light blue-violet for text highlights
+        },
       },
     },
   },
